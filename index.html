@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 
     <title class="head-typography">Webstudio</title>
@@ -18,90 +19,102 @@
 
 <body>
 
-<header class="head-typography">
-    
 
-    <nav>
+  <header class="head-typography">
+  <div class="head-container">
+  
+      <nav class="nvg">
+  
+        <a href="./index.html" class="logo"> Web <span class="std"> Studio </span> </a>
+  
+          <ul class="header-list-nav">
 
-      <a href="./index.html" class="logo"> Web <span class="std"> Studio </span> </a>
+              <li><a href="./index.html" class="studio"> Studio </a>
+  
+              </li>
+  
+              <li><a href="" class="studio"> Portfolio </a>
+  
+              </li>
+  
+              <li><a href="" class="studio"> Contacts </a>
+  
+              </li>
+  
+          </ul>
+  
+      </nav>
+  
+      <address class="adrs">
+  
+      <ul class="phone">
+  
+        <li>
+        <a href="mailto:info@devstudio.com" class="email"> info@devstudio.com </a>
+        </li>
+  
+        <li>
+        <a href="tel:+110001111111" class="email"> +11 (000) 111-11-11 </a>
+  
+        </li>
+  
+      </ul>
+  
+      </address>
+  
+  </div>
+  </header>
 
-        <ul>
-            <li><a href="./index.html" class="studio"> Studio </a>
-
-            </li>
-
-            <li><a href="" class="studio"> Portfolio </a>
-
-            </li>
-
-            <li><a href="" class="studio"> Contacts </a>
-
-            </li>
-
-        </ul>
-
-    </nav>
-
-    <address class="adrs">
-
-    <ul>
-      
-      <li>
-      <a href="mailto:info@devstudio.com" class="email"> info@devstudio.com </a>
-      </li>
-
-      <li>
-      <a href="tel:+110001111111" class="email"> +11 (000) 111-11-11 </a>
-
-      </li>
-
-    </ul>
-      
-    </address>
-
-
-</header>
 
 
 
 
 <main>
 
-  <section class="main-page">
   
-  
-    <h1 class="main-text">Effective Solutions
-      for Your Business</h1>
+    <section class=" Section main-page">
 
-    <button type="button" class="btn">Order Service</button>
-  
-  
-  </section>
-
-
-    <section>
-      
-      <h2>?</h2>
-<ul class="opportunity">
-  <li><h3 class="goals">Strategy</h3>
-    <p class="par">Our goal is to identify the business
-    problem to walk away with the perfect and creative solution.</p>
-
-
-  </li>
-  <li><h3 class="goals">Punctuality</h3>
-    <p class="par">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+    <div class="container main-page-container">
     
-  </li>
-  <li><h3 class="goals">Diligence</h3>
-<p class="par">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-  </li>
-  <li><h3 class="goals">Technologies</h3>
-  <p class="par">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-  </li>
-  </ul>
+      <h1 class="main-text">Effective Solutions
+        for Your Business</h1>
+      <button type="button" class="btn">Order Service</button>
+    
+    </div>
+    </section>
+  
 
 
+    <section class="Section Features">
+      
+      <div class="container">
+
+      <h2 hidden class="visually-hidden">Features</h2>
+
+  <ul class="opportunity">
+    
+
+    <li class="opportunity-list"><h3 class="goals">Strategy</h3>
+      <p class="par">Our goal is to identify the business
+      problem to walk away with the perfect and creative solution.</p>
+  
+  
+    </li>
+    <li class="opportunity-list"><h3 class="goals">Punctuality</h3>
+      <p class="par">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+  
+    </li>
+    <li  class="opportunity-list"><h3 class="goals">Diligence</h3>
+  <p class="par">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+    </li>
+    <li  class="opportunity-list"><h3 class="goals">Technologies</h3>
+    <p class="par">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+    </li>
+    
+    </ul>
+
+
+</div>
     </section>
 
 
@@ -109,92 +122,95 @@
 
 
     
-<section class="third-page">
+<section class="Section third-page">
 
+<div class="container">
 
-    <h2 class="submain-text">Our Team</h2>
+    
+      <h2 class="submain-text">Our Team</h2>
 
-    <ul class="team">
-      <li class="list"><img  src="./images/mark.jpg" width="264" alt="mark">
-        <h3 class="guys">Mark Guerrero</h3>
-        <p class="guys-page">Product Designer</p>
-       
-
+      <div class="wrapper">
+      <ul class="team">
+        <li class="list"><img  src="./images/mark-min.jpg" width="264" alt="mark">
+          <h3 class="guys">Mark Guerrero</h3>
+          <p class="guys-page">Product Designer</p>
       
-      </li>
-      <li  class="list"><img src="./images/tom.jpg" width="264" alt="tom">
-        <h3  class="guys">Tom Ford</h3>
-        <p class="guys-page">Frontend Developer</p>
       
-
-
-      </li>
-
-      <li  class="list"><img  src="./images/camilla.jpg" width="264" alt="camila">
-        <h3  class="guys">Camila Garcia</h3>
-        <p class="guys-page">Marketing</p>
-       
-
-      </li>
-      <li  class="list"><img src="./images/daniel.jpg" width="264" alt="daniel">
-        <h3  class="guys">Daniel Wilson</h3>
-        <p class="guys-page">UI Designer</p>
-        
+        </li>
+        <li  class="list"><img src="./images/tom-min.jpg" width="264" alt="tom">
+          <h3  class="guys">Tom Ford</h3>
+          <p class="guys-page">Frontend Developer</p>
       
-      </li>
+        </li>
+        <li  class="list"><img  src="./images/camilla-min.jpg" width="264" alt="camila">
+          <h3  class="guys">Camila Garcia</h3>
+          <p class="guys-page">Marketing</p>
+      
+        </li>
+        <li  class="list"><img src="./images/daniel-min.jpg" width="264" alt="daniel">
+          <h3  class="guys">Daniel Wilson</h3>
+          <p class="guys-page">UI Designer</p>
+      
+      
+        </li>
+      </ul>
 
+    </div>
 
-    </ul>
-
+</div>
 </section>
 
 
-<section>
+<section class="Section">
+  <div class="container">
 
   <h2 class="third-main-page">Our Portfolio</h2>
 
-  <ul class="main-aps">
-    <li><img src="./images/img-5.jpg" width="360" alt="banking app">
-      <h3 class="few-aps">Banking App</h3>
-      <p class="par-aps">App</p>
-
-    </li>
-
-    <li><img src="./images/img-4.jpg" width="360" alt="cashless payment">
-    <h3 class="few-aps">Cashless Payment</h3>
-    <p class="par-aps">Marketing</p>
+  <div class="wrapper">
+    <ul class="main-aps">
+      <li class="main-list-aps"><img src="./images/img-5.jpg" width="360" alt="banking app">
+        <h3 class="few-aps">Banking App</h3>
+        <p class="par-aps">App</p>
+      </li>
+      <li class="main-list-aps"><img src="./images/img-4.jpg" width="360" alt="cashless payment">
+      <h3 class="few-aps">Cashless Payment</h3>
+      <p class="par-aps">Marketing</p>
     
-    </li>
+      </li>
 
-    <li><img src="./images/img-3.jpg" width="360" alt="meditation app">
-      <h3 class="few-aps">Meditation App</h3>
-      <p class="par-aps">App</p>
+      <li class="main-list-aps"><img src="./images/img-3.jpg" width="360" alt="meditation app">
+        <div class="portfolio-wrapper">
+        <h3 class="few-aps">Meditation App</h3>
+        <p class="par-aps">App</p>
+        </div>
+      </li>
 
-    </li>
+      <li class="main-list-aps"><img src="./images/img-2.jpg" width="360" alt="taxi service">
+       <div class="portfolio-wrapper">
+        <h3 class="few-aps">Taxi Service</h3>
+        <p class="par-aps">Marketing</p>
+        </div>
+      </li>
 
-    <li><img src="./images/img-2.jpg" width="360" alt="taxi service">
-      <h3 class="few-aps">Taxi Service</h3>
-      <p class="par-aps">Marketing</p>
+      <li class="main-list-aps"><img src="./images/img-1.jpg" width="360" alt="screen illustrations">
+       <div class="portfolio-wrapper">
+        <h3 class="few-aps">Screen Illustrations</h3>
+        <p class="par-aps">Design</p>
+        </div>
+      </li>
 
-    </li>
+      <li class="main-list-aps"><img src="./images/img.jpg" width="360" alt="online courses">
+       <div class="portfolio-wrapper">
+        <h3  class="few-aps">Online Courses</h3>
+        <p class="par-aps">Marketing</p>
+        </div>
+      </li>
 
-    <li><img src="./images/img-1.jpg" width="360" alt="screen illustrations">
-      <h3 class="few-aps">Screen Illustrations</h3>
-      <p class="par-aps">Design</p>
+    </ul>
+    
+  </div>
 
-    </li>
-
-    <li><img src="./images/img.jpg" width="360" alt="online courses">
-      <h3  class="few-aps">Online Courses</h3>
-      <p class="par-aps">Marketing</p>
-
-    </li>
-
- 
-  </ul>
-  
-
-
+  </div>
 
 
 
@@ -222,14 +238,16 @@
 
 
 <footer class="footer">
+  <div class="container">
   
-  <a href="./index.html" class="logo-two" >Web<span class="second-logo"> Studio </span> </a>
+  
+    <a href="./index.html" class="logo-two" >Web<span class="second-logo"> Studio </span> </a>
+    <p class="footer-page">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+  
 
-  <p class="footer-page">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
 
 
-
-
+  </div>
 
 </footer>
 
