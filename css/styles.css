@@ -1,0 +1,213 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 150%;
+    background-color: #FFFFFF;
+}
+.logo{
+
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.std{
+    color: #2e2f42;
+}
+.main-page{
+   background-color: #2e2f42;
+}
+.btn {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+    cursor: pointer;
+
+        background-color:#4d5ae5; 
+       
+    
+ }
+ .btn:hover,:focus{
+    
+        background: #404bbf;
+        cursor: pointer;
+ }
+
+ul > .email{
+    list-style-type: none;
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+    
+}
+.email{
+    
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455; 
+}
+.email:hover,:focus{
+    color: #404bbf;
+}
+
+.studio{
+    line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        font-size: 16px
+
+}
+.studio:hover,:focus{
+    color: #404bbf;
+}
+.studio:active{
+    color: #404bbf;
+}
+
+.adrs{
+    font-style: normal
+}
+
+.main-text{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+            letter-spacing: 0.02em;
+            text-align: center;
+           color:  #ffffff;           
+            
+}
+.opportunity  .goals{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.opportunity .par{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+            letter-spacing: 0.02em;
+            color: #434455;
+}
+.submain-text{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;
+            text-transform: capitalize;
+}
+.list{
+background-color: #FFFFFF
+}
+    
+
+.team  .guys{
+    font-weight: 500;
+        font-size: 20px;
+line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team  .guys-page{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #434455;
+}
+.few-aps{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+}
+.par-aps{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+            letter-spacing: 0.02em;
+            color: #434455;
+}
+.footer-page{
+   
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+                letter-spacing: 0.02em;
+                
+                
+}
+.head-typography{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+            color: #434455;
+}
+.third-page{
+    background-color: #F4F4FD;
+}
+.third-main-page{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+   color: #2e2f42;
+}
+.footer{
+    background: #2e2f42;
+}
+.logo-two{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.second-logo{
+  color:  #f4f4fd;
+}
+.footer-page{
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.main-aps  .few-aps{
+   background-color: #FFFFFF;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.main-aps  .par-aps{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+        background-color: #FFFFFF;
+}
