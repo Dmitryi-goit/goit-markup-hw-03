@@ -191,6 +191,7 @@ letter-spacing: 0.04em;
         padding: 16px 32px;
         height: 56px;
         border: none;
+        min-width: 169px ;
         
     
  }
@@ -211,13 +212,13 @@ letter-spacing: 0.04em;
             text-align: center;
            color:  #ffffff;  
            margin-bottom: 48px;  
-           width: 496px;     
+          max-width:496px;     
             
 }
 
 /*Features*/
 
-.Features{
+.features{
     padding: 120px 0;
 }
 
@@ -231,6 +232,16 @@ letter-spacing: 0.04em;
         color: #2e2f42;
         padding-top: 120px;
         padding-bottom: 72px;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        clip-path: inset(100%);
+        white-space: nowrap;
+        clip:rect(0 0 0 0);
+        overflow: hidden;
         
 }
 
@@ -295,11 +306,13 @@ font-weight: 500;
 }
 
 .text-wrapper{
-margin-top: 32px;
+
+padding: 32px 0;
 }
 
 .list{
-background-color: #FFFFFF
+background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
 }
     
 
@@ -448,7 +461,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 17px;
+margin-bottom: 16px;
 display: inline-block;
 
 
